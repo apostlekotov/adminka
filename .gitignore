@@ -1,0 +1,147 @@
+############################
+# OS X
+############################
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+.Spotlight-V100
+.Trashes
+._*
+*.pem
+
+############################
+# Linux
+############################
+
+*~
+
+############################
+# Windows
+############################
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+############################
+# Packages
+############################
+
+*.7z
+*.csv
+*.dat
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.seed
+*.so
+*.swo
+*.swp
+*.swn
+*.swm
+*.out
+*.pid
+
+############################
+# Logs and databases
+############################
+
+.tmp
+*.log
+*.sql
+*.sqlite
+
+############################
+# Misc.
+############################
+
+*#
+.idea
+nbproject
+.vscode/
+
+############################
+# Node.js
+############################
+
+lib-cov
+lcov.info
+pids
+logs
+results
+build
+node_modules
+.node_history
+package-lock.json
+**/package-lock.json
+!docs/package-lock.json
+.next
+out_publish/
+/out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/.pnp
+.pnp.js
+.vercel
+
+# env
+.env
+.env.build
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+# next.config.js
+
+############################
+# Tests
+############################
+
+testApp
+coverage
+cypress/screenshots
+cypress/videos
+
+############################
+# Documentation
+############################
+
+dist
+
+############################
+# Builds
+############################
+
+packages/strapi-generate-new/files/public/
+/build
+
+############################
+# Example app
+############################
+
+.dev
+*.cache
+.cache/
+
+############################
+# Visual Studio Code
+############################
+
+front-workspace.code-workspace
