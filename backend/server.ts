@@ -8,7 +8,7 @@ import express from 'express';
 import session from 'express-session';
 import { ApolloServer } from 'apollo-server-express';
 
-import { createSchema } from './src/resolvers/createSchema';
+import { createSchema } from './resolvers/createSchema';
 
 import colors from 'colors';
 
