@@ -1,0 +1,14 @@
+{
+	"name": "adminka",
+	"version": "1.0.0",
+	"description": "Headless CMS (Control Management System)",
+	"repository": "https://github.com/apostlekotov/adminka.git",
+	"author": "Kotov <kotov.smtp@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"web": "yarn --cwd dashboard/ start",
+		"server": "yarn --cwd backend/ start",
+		"start": "concurrently \"yarn --cwd dashboard/ start \" \"yarn --cwd backend/ start \""
+	},
+	"private": false
+}
