@@ -139,6 +139,7 @@ packages/strapi-generate-new/files/public/
 .dev
 *.cache
 .cache/
+.eslintcache
 
 ############################
 # Visual Studio Code
