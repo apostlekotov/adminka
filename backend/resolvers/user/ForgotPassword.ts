@@ -34,7 +34,7 @@ export class ForgotPasswordResolver {
 		const token = v4();
 
 		await redis.set(
-			process.env.FORGET_PASSWORD_PREFIX + token,
+			'forget-password:' + token,
 			user.id,
 			'ex',
 			1000 * 60 * 60 * 24 * 3 // 3 days
